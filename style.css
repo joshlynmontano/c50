@@ -1,0 +1,33 @@
+.header{
+    background-color: rgb(219, 44, 219);
+    border:dotted; 
+    border-radius: 50px;
+    text-align: center;
+}
+.text {
+  background-color: bisque;  
+  border:solid; 
+  border-color:antiquewhite;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.grid { 
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  background-color: lightslategray;
+  border:solid;
+  border-color:palevioletred;
+  border-radius: 10px;
+}
+
+.footer {
+    display:flex; 
+    flex-wrap:wrap-reverse; 
+    justify-content:flex-end;
+    background-color: hotpink;
+    border:dotted;
+    border-color:aqua;
+    border-radius : 20px
+}
